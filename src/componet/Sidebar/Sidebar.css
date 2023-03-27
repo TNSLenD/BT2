@@ -1,0 +1,79 @@
+.Sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 17px;
+  padding-left: 33px;
+}
+
+.logo {
+  width: 133px;
+  height: 58px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 59px;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-radius: 8px;
+}
+
+.menu :hover {
+  transform: 0.5s;
+  background: lightgrey;
+  cursor: pointer;
+  color: white;
+  border-radius: 8px;
+}
+.menuItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #1e0d03;
+  padding: 15px 16px 15px 24px;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  opacity: 0.6;
+  width: 252px;
+  height: 56px;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.active {
+  background: #ffb700;
+  color: #fff;
+}
+
+.menu1 {
+  width: 105px;
+  height: 26px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.015em;
+  color: #1e0d03;
+  opacity: 0.6;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  padding-left: 113px;
+}
+
+.icon {
+  width: 18px;
+  height: 20px;
+}
+
+.heading {
+  text-decoration: none;
+}

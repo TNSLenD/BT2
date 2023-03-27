@@ -1,0 +1,68 @@
+.navbar {
+  display: flex;
+
+  padding-top: 17px;
+  padding-bottom: 20px;
+  padding-right: 32px;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 16px;
+  gap: 16px;
+  width: 437px;
+  height: 28px;
+  left: 321px;
+  top: 17px;
+  background: #ede6e6;
+  border-radius: 12px;
+}
+
+input {
+  width: 361px;
+  font-family: "Montserrat";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #1e0d03;
+  background: #ede6e6;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 1;
+  border: none;
+  height: 28px;
+  outline: none;
+}
+UilSearch {
+  background: #1e0d03;
+  width: 24px;
+  height: 24px;
+}
+.items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 28px;
+  position: absolute;
+  width: 144px;
+  height: 48px;
+  left: 1744px;
+  top: 17px;
+}
+
+.item .avatar {
+  width: 48px;
+  height: 48px;
+  background: url();
+  border-radius: 30px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
